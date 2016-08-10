@@ -56,6 +56,9 @@ class firstPageViewController: UIViewController {
         let location = LocationTool()
         self.navigationController?.showViewController(location, sender: nil)
     }
+    func h(){
+        print("ddd")
+    }
     func presentGo(){
         
         let shopCar = turn1()
